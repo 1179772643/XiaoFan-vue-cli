@@ -6,4 +6,6 @@ export const useStore = defineStore("main", {
             name: "xiaoFan",
         };
     },
+    //持久化插件
+    persist: true,
 })
